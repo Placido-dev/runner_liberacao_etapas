@@ -3,6 +3,7 @@ name: Santillana - Liberar Desafio 3
 on:
   schedule:
     - cron: '30 20 10 6 *'
+  workflow_dispatch:
 
 jobs:
   liberar:

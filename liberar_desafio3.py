@@ -8,11 +8,7 @@ BASE_URL = os.getenv('URL')
 EMAIL = os.getenv('EMAIL')
 PASSWORD = os.getenv('PASS')
 
-ORGANIZATION_ID = 9750
 
-CLUSTERS = [134219, 147049, 147050, 147051]
-
-MODULES = [791387, 791396, 791405]
 
 
 def authenticate():
